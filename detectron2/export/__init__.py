@@ -6,7 +6,7 @@ from .flatten import TracingAdapter
 from .torchscript import dump_torchscript_IR, scripting_with_instances
 
 # TODO: Update ONNX Opset version and run tests when a newer PyTorch is supported
-STABLE_ONNX_OPSET_VERSION = 20
+STABLE_ONNX_OPSET_VERSION = 18
 
 
 def add_export_config(cfg):
